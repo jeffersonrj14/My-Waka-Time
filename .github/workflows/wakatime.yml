@@ -14,6 +14,7 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID : 98eb5db4be0fc4521b128f7408453266
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           # meta
           API_BASE_URL: https://wakatime.com/api
