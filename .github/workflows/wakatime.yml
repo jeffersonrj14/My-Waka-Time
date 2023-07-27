@@ -27,7 +27,7 @@ jobs:
           # content
           SHOW_TITLE: true
           SECTION_NAME: waka
-          BLOCKS: -#
+          BLOCKS: ░▒▓█
           CODE_LANG: all_time 
           TIME_RANGE: true
           LANG_COUNT: 10
