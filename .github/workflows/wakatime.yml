@@ -3,7 +3,7 @@ name: Work Stats Readme
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * 1-5"
+    - cron: "0 18 * * 1"
 
 jobs:
   update-readme:
