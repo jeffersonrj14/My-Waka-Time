@@ -35,11 +35,11 @@ jobs:
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.org
           AUTHOR_NAME: Jefferson
-      - uses: actions/checkout@master
-      - name: Update gist
-        uses: matchai/waka-box@master
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 98eb5db4be0fc4521b128f7408453266
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+#       - uses: actions/checkout@master
+#       - name: Update gist
+#         uses: matchai/waka-box@master
+#         env:
+#           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+#           GIST_ID: 
+#           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         
