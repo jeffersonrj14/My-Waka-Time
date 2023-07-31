@@ -16,7 +16,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           # meta
           API_BASE_URL: https://wakatime.com/api
-          REPOSITORY: jeffersonfed
+          REPOSITORY: jeffersonfed/jeffersonfed
           # content
           SHOW_TITLE: true
           SECTION_NAME: waka
