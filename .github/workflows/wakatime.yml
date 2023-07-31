@@ -30,7 +30,7 @@ jobs:
           # commit
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics
           TARGET_BRANCH: main
-          TARGET_PATH: README.md
+          TARGET_PATH: /../../../../jeffersonfed/jeffersonfed/blob/main/README.md
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.org
           AUTHOR_NAME: Jefferson
