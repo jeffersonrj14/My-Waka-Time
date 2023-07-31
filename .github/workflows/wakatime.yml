@@ -20,7 +20,7 @@ jobs:
           SHOW_TITLE: true
           SECTION_NAME: waka
           BLOCKS: => 
-          CODE_LANG: all_time
+          CODE_LANG: txt
           TIME_RANGE: all_time
           LANG_COUNT: 10
           SHOW_TIME: true
