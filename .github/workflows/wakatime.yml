@@ -29,17 +29,17 @@ jobs:
           SHOW_MASKED_TIME: false
           STOP_AT_OTHER: true
           # commit
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
+          COMMIT_MESSAGE: Updated wakatime stats
           TARGET_BRANCH: main
           TARGET_PATH: README.md
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.org
           AUTHOR_NAME: Jefferson
-#       - uses: actions/checkout@master
-#       - name: Update gist
-#         uses: matchai/waka-box@master
-#         env:
-#           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-#           GIST_ID: 
-#           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      - uses: actions/checkout@master
+      - name: Update gist
+        uses: matchai/waka-box@master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: d1de409fc1e8e4b61edbb8a19e90525e
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         
