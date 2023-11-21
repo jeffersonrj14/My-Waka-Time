@@ -35,7 +35,7 @@ jobs:
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.org
           AUTHOR_NAME: Jefferson
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Update gist
         uses: matchai/waka-box@master
         env:
